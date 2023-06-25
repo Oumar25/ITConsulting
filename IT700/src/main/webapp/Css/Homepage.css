@@ -1,0 +1,128 @@
+#store {
+    font: 15px Montserrat, sans-serif;
+    height: 780px;
+    width: 100%;
+    background: #d2f9ea;
+    margin-top: 50px;
+}
+
+#store .topHead {
+    font-weight: bold;
+    text-align: center;
+}
+
+#store .nav a {
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+#store .headContainer {
+    padding-top: 15px;
+}
+
+#store li .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 110%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+#store li:hover .tooltiptext {
+    visibility: visible;
+}
+
+#store .nav>li>a:focus,
+#store .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #94f18b;
+}
+
+#store li:hover {
+    transform: scale(1.2);
+    transition: transform 250ms ease;
+}
+
+#store .tab-content>div {
+    margin-top: 70px;
+    width: 100%;
+    height: 675px;
+    padding: 20px;
+}
+
+#home h3 {
+    text-align: center;
+}
+
+#RecordCarousel .fa {
+    margin-top: 200%;
+}
+
+#RecordCarousel {
+    margin-left: 12.5%;
+    width: 75%;
+    margin-top: 20px;
+}
+
+#RecordCarousel:after {
+    content: '';
+    margin-left: 7.5%;
+    width: 85%;
+    margin-top: 40px;
+    background-color: black;
+}
+
+#searchForm {
+    margin-top: 35px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#createForm {
+    padding-top: 50px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+#createForm .radio-inline{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#createForm .form-group {
+    margin-bottom: 35px;
+}
+
+#createForm .inputIcon {
+    width: 40px;
+    background: #66d2fb;
+    top: 1px;
+    position: absolute;
+    right: 16px;
+    font-size: 14px;
+    border-radius: 0px 2px 2px 0px;
+    height: 32px;
+}
+
+#createForm .inputIcon i{
+    top: 1px;
+    position: absolute;
+    right: 6px;
+}
+
+#createForm input[type=file] {
+    cursor: pointer;
+}
+
+#createForm .btn {
+    margin-top: 50px;
+}
